@@ -9,7 +9,7 @@ cd ft_server
 docker build ft_server_image .
 docker run -it --rm --name container -itp 80:80 -p 443:443 ft_server_image
 ```
-and go to https://localhost \n
-phpMyAdmin
+and go to https://localhost  
+phpMyAdmin  
 login: root
 password: ''
